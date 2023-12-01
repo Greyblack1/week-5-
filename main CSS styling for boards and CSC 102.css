@@ -1,0 +1,37 @@
+/*this is the body selector - these stykles will affect the whole page
+    setting the background-color property to teh value of blueish 
+    setting the text color (forground) to a black*/
+body{
+    background-color: rgb(180, 205, 206);
+    color:rgb(39, 38, 38)
+}
+
+/*
+this is the nav selector anything in between the <nav> and </nav> tags 
+will be affected by those styles
+*/
+nav{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+/*
+this is the footer selector - gennerally the footer will be at the bottom of the page
+*/
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+/*the image will be affected by this style*/
+#meme{
+    margin-right: 200px;
+}
+
+/*anything in the header tags will be affected by this style*/
+header{
+    text-align: center;
+}
